@@ -1,0 +1,27 @@
+/* Breakpoints---------------
+x Small
+Small
+Medium
+Extra Large
+Extra Extra Large
+*/
+
+/* div{
+  background: var(--bs-info);
+  height: 100px;
+  margin-bottom: 20px;
+} */
+.row{
+  margin-bottom: 20px;
+  height: 200px;
+  background: #f39c12;
+}
+
+.row div div{
+  background: #dd2e28;
+  /* border: 5px solid #22a6b3; */
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
