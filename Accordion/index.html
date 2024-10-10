@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 
+    Default
+    Primary
+    Secondary
+    Success
+    Danger
+    Warning
+    Info
+    Light
+    Dark
+  -->
+<form action="" class="m-2 p-3 border border-warning">
+  <div class="mb-3">
+    <label for="">Name</label>
+    <input type="text" placeholder="Enter Your Name" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label for="">Email</label>
+    <input type="email" placeholder="Enter Your Email" class="form-control" required>
+    <div class="form-text">We will never share your email address with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="">Textarea</label>
+    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+    
+  </div>
+  <button class="btn btn-warning">Submit</button>
+</form>
+
+<form action="" class="m-2 p-3 border border-primary">
+
+  <div class="mb-3">
+    <label for="">Email</label>
+    <input type="email" placeholder="Enter Your Email" class="form-control" required>
+    <div class="form-text">We will never share your email address with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="">Color Picker</label>
+    <input type="color" class="form-control form-control-color" value="#ff0000">    
+  </div>
+  <div class="mb-3">
+    <select name="" id="" class="form-select">
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>  
+  </div>
+  <div class="mb-3">
+    <label for="">Password</label>
+   <input type="password" value="" placeholder="Enter your Password" class="form-control">    
+  </div>
+  <div class="mb-3 form-check">    
+   <input type="checkbox" value="" class="form-check-input" checked>  
+   <label for="">Remember Me</label>  
+  </div>
+  <div class="mb-3 form-switch">    
+    <input type="checkbox" value="" class="form-check-input">  
+    <label for="">Remember Me</label>  
+   </div>
+   <div class="mb-3 form-radio">    
+    <input type="radio" value="" class="form-radio-input">  
+    <label for="">Remember Me</label>  
+   </div>
+   <div class="mb-3">    
+    <input type="range" value="" class="form-range" min="0" max="10">  
+    <label for="">Remember Me</label>  
+   </div>
+  <button class="btn btn-primary">Submit</button>
+</form>
+
+  
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
