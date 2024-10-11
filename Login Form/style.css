@@ -11,4 +11,14 @@ Extra Extra Large
   height: 100px;
   margin-bottom: 20px;
 } */
+html, body {
+  height: 100%;
+}
 
+body{
+  background: url(img/nanomaterials.jpg);
+  background-size: cover;
+}
+.form-login{
+  background: rgba(236,240,241, .35);
+}
