@@ -1,0 +1,21 @@
+/* Breakpoints---------------
+x Small
+Small
+Medium
+Extra Large
+Extra Extra Large
+*/
+
+/* div{
+  background: var(--bs-info);
+  height: 100px;
+  margin-bottom: 20px;
+} */
+html, body {
+  height: 100%;
+}
+
+body{
+  background: url(img/nanomaterials.jpg);
+  background-size: cover;
+}
