@@ -15,3 +15,26 @@ Extra Extra Large
 img{
   width: 100px;
 }
+ul{
+  margin: 15px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+li{
+  display: inline-block;
+  margin: 0 10px;
+}
+a{
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: #262626;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+a:hover{
+  background: #261261;
+}
